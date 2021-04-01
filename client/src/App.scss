@@ -1,0 +1,139 @@
+body{
+    padding: 0;
+    margin:0;
+    height: 100vh;
+    width: 99vw;
+    overflow-x:hidden;
+    transition: all 0.3s ease;
+}
+input[type=text], input[type=password], input[type=email], input[type=number]{
+    text-align: center;
+    margin-bottom: 5px;
+    height: 40px;
+}
+.btn{
+    padding:8px;
+    color:white;
+}
+.btn:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.03);
+    background-color: darken(#007bff, 10%)
+}
+.center{
+    display:grid;
+    place-items: center;
+}
+.backBtn{
+    background: rgba($color: white, $alpha: 0.5);
+    color:black;
+    height:30px;
+    width:20px;
+    padding: 3px 5px;
+    border:none;
+    border-radius: 5px;
+    margin-top:10px;
+    transform: scale(1.5);
+}
+.backBtn:hover{ 
+    background: rgba($color: #ccc, $alpha: 1.0);
+}
+.bg-colour, .card{
+    background: #F0A167;
+}
+.center{
+    display: grid;
+    place-items: center;
+}
+.letter-spacing{
+    letter-spacing: 5px;
+}
+.floatRight{
+    float:right;
+}
+.floatLeft{
+    float:left;
+}
+.container{
+    transition: all 0.3s ease;
+}
+.overflow-500{
+    max-height: 500px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.overflow-250{
+    max-height: 250px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.overflow-100{
+    max-height: 100px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.height-auto{
+    height: auto;
+    padding:5px
+}
+.max-height-400{
+    max-height: 400px;
+    padding:5px
+}
+.min-height-200{
+    min-height: 200px;
+    padding:5px
+}
+.min-width-350{
+    min-width: 350px;
+}
+.max-width-450{
+    max-width:450px;
+}
+.group-hover:hover{
+    background-color: #ccc;
+    transform: scale(1.03)
+}
+.colour-black{
+    color:black
+}
+.colour-black:hover{
+    color:steelblue
+}
+.admin{
+    height: 20px;
+    color:rgb(255, 0, 0);
+    font-size: 11px;
+}
+.question{
+    background-color: darken(#F0A167, 10%)
+}
+#background{
+    min-height: 120vh;
+    height: 100%;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: cover;
+    display:block;
+    position: absolute;
+    top:0;
+}
+#overlay{
+    min-height: 120vh;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0,0.25);
+}
+.bannedUser {
+    background-color: red !important;
+}
+button{
+    color:black;
+    background:rgba($color: #000000, $alpha: 0);
+    border: none;
+    padding: 2px 8px 2px 8px;
+}
+.width-100-percentage{
+    width:100%;
+}

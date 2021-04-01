@@ -1,0 +1,91 @@
+//Groups
+{
+	_id: ObjectId(“randomString”),
+	groupName: "Dynamical Webpages",
+	groupPassword: "qwerty123",
+	groupDescription: “This is a group for the dynamical webpages module”,
+	groupTeacher: ObjectId("Teacher's object id"),
+	groupQuizzes:[
+	{
+		_id: Objectid("randomString"),
+		quizQuestions: [
+		{
+			{
+			quizTitle: "Quiz 1",
+			quizQuestion: "What is 2+2",
+			quizCorrectAnswer: 4,
+			quizWrongAnswer1: 3,
+			quizWrongAnswer2: 5,
+			quizWrongAnswer3: 6
+		},
+		{
+			quizTitle: "Quiz 2",
+			quizQuestion: "What is 4+4",
+			quizCorrectAnswer: 8,
+			quizWrongAnswer1: 7,
+			quizWrongAnswer2: 9,
+			quizWrongAnswer3: 6
+		}
+		}]
+		usersAttempted: [{
+			_id: ObjectId("randomString"),
+			AnswersCorrect: 1,
+			AnswersWrong: 1
+			},
+			{
+			_id: ObjectId("randomString"),
+			AnswersCorrect: 2,
+			AnswersWrong: 0
+			},
+			{
+			_id: ObjectId("randomString"),
+			AnswersCorrect: 0,
+			AnswersWrong: 2
+			}]
+	},
+	{
+		_id: Objectid("randomString"),
+		quizQuestions: [
+		{
+			{
+			quizTitle: "Quiz 1",
+			quizQuestion: "What is the capital of Poland",
+			quizCorrectAnswer: "Warsaw",
+			quizWrongAnswer1: "Paris",
+			quizWrongAnswer2: "Krakow",
+			quizWrongAnswer3: "Katowice"
+		},
+		{
+			quizTitle: "Quiz 2",
+			quizQuestion: "What is the capital of England",
+			quizCorrectAnswer: "London",
+			quizWrongAnswer1: "Manchester",
+			quizWrongAnswer2: "Liverpool",
+			quizWrongAnswer3: "Leeds"
+		},
+		{
+			quizTitle: "Quiz 3",
+			quizQuestion: "What is the capital of Scotland",
+			quizCorrectAnswer: "Edinburgh",
+			quizWrongAnswer1: "Glasgow",
+			quizWrongAnswer2: "Paisley",
+			quizWrongAnswer3: "Ayr"
+		}
+		}]
+		usersAttempted: [{
+			_id: ObjectId("randomString"),
+			AnswersCorrect: 2,
+			AnswersWrong: 1
+			},
+			{
+			_id: ObjectId("randomString"),
+			AnswersCorrect: 3,
+			AnswersWrong: 0
+			},
+			{
+			_id: ObjectId("randomString"),
+			AnswersCorrect: 0,
+			AnswersWrong: 3
+			}]
+	}]]
+}
